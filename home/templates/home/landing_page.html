@@ -1,0 +1,47 @@
+{% extends 'base\base.html' %}
+{% load static %}
+
+
+
+{% block content %}
+
+	
+
+
+	<div class = "box1">
+		<div class= "word">
+		
+			<p>Join the growing society of Salons</p>
+			<h5>Please Login or Register</h5>
+				
+		</div>
+
+		<div class= "but1">
+			<button>Login</button> 
+				<div>
+					<a href = "{% url 'auth:customer_login' %}"> Customer</a>
+					<a href = "{% url 'auth:service_provider_login' %}">Salon Owner</a>
+				</div>
+			
+						
+		</div>
+			
+		<div class= "but2">
+			<button>Register</button> 
+				<div>
+					<a href = "{% url 'auth:customer_registration' %}">Customer</a>
+					<a href = "{% url 'auth:service_provider_registration' %}">Salon Owner</a>
+				</div>
+			
+						
+		</div>
+
+	</div>
+
+	<div class = "illustration">
+		<img src = "{% static 'media\Salcon illustration.png'%}">
+	</div>
+
+
+	
+{% endblock %}

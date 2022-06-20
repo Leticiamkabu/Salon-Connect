@@ -1,0 +1,211 @@
+html{
+    box-sizing: border-box;
+    margin: 0;
+    
+    
+        
+    }
+    
+    
+body{
+    background-color: rgb(137, 194, 245);
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;  
+    }
+
+
+.CForm{
+    height: 65%;
+    width: 30%;
+   
+    left: 450px;
+    position: relative;
+    top:90px;
+    border-radius: 15px;
+    background-color:rgb(92, 155, 238);
+    visibility: visible; 
+}
+
+.CForm1{
+    height: 65%;
+    width: 30%;
+   
+    left: 450px;
+    position: relative;
+    top:90px;
+    border-radius: 15px;
+    background-color:rgb(92, 155, 238);
+    visibility: visible; 
+}
+
+.CForm1 h2{
+    color: white;
+    position: relative;
+    left:65px;
+    top:-5px;
+    font-size:30px;
+}
+
+.CForm1 input{
+    height: 30px;
+    outline: none;
+    border: none;
+    font-size: 14px;
+    margin-top: 3px;
+    width: 240px;
+    border-radius: 10px;
+
+}
+
+.CForm1 h3{
+    color:white;
+    position: relative;
+    left:30px;
+    top:145px;
+}
+
+.CForm1 h1{
+    color:white;
+    position: relative;
+    left:30px;
+    top:165px;
+    font-size: 20px
+}
+
+
+input{
+    height: 30px;
+    outline: none;
+    border: none;
+    font-size: 14px;
+    margin-top: 3px;
+    width: 240px;
+    border-radius: 10px;
+
+
+}
+
+.main-login{
+    display: flex;
+    
+}
+.main-login .Username{
+    width: 250px;
+    border: 1px solid rgb(92, 155, 238);
+    margin-top: -10px;
+    margin-left: 140px;
+    height: 34px;
+    border-radius: 6px;
+    
+}
+
+.main-login .Password{
+    width: 250px;
+    border: 1px solid rgb(92, 155, 238);
+    margin-top: 50px;
+    margin-left: -240px;
+    height: 34px;
+    border-radius: 6px;
+    
+    
+    
+
+}
+
+h3{
+    color:white;
+    position: relative;
+    left:30px;
+    top:170px;
+}
+
+h2{
+    color: white;
+    position: relative;
+    left:120px;
+    top:-5px;
+    font-size:40px;
+
+}
+
+h1{
+    color:white;
+    position: relative;
+    left:30px;
+    top:195px;
+    font-size: 20px
+}
+
+.Submit{
+    color:white;
+    position:relative;
+    border: white solid;
+    height: 20px;
+    width: -10px;
+    top:120px;
+    left:-70px;
+    text-align: center;
+    border-radius: 10px;
+    /* border-width: 5px; */
+    
+    
+
+}
+.Submit:hover{
+    background-color: white;
+    color:rgb(92, 155, 238);
+    text-decoration-color: rgb(92, 155, 238);
+} 
+
+.Submit a{
+    text-decoration: none;
+    color:white;
+}
+
+.Submit a:hover{
+    color: rgb(92, 155, 238);
+}
+
+.pic{
+    background-image: url("image/4.png");
+    height: 120px;
+    width: 540px;
+    top:-419px;
+    position: relative;
+    left: 400px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Back{
+  
+    position:relative;
+    border: rgb(243, 83, 158) solid;
+    height: 20px;
+    width: 50px;
+    top:-620px;
+    left:10px;
+    text-align: center;
+    border-radius: 40px;
+    
+    
+    
+
+}
+.Back a{
+    color:rgb(243, 83, 158);
+    text-decoration-line: none;
+}
+
+/* .Back a:hover{
+    color:white;
+} */
+.Back:hover{
+    background-color:   rgb(240, 173, 204);;
+    color: #000;
+    
+} 

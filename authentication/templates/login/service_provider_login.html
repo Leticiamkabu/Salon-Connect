@@ -1,0 +1,38 @@
+{% load static %}
+<html>
+    <head>
+        <title>Customer Login Page</title>
+        <link rel="stylesheet" href="{% static 'css\login_page.css' %}">
+    </head>
+            
+<body>
+    <div class = "CForm1">
+        	
+        <h3>Username</h3>
+        <h1>Password</h1>
+        <h2>Service Provider Login</h2>
+                
+        <form method = "POST" action = "#">
+            {% csrf_token %} 
+            <div class= "main-login">
+                <div class="Username"><input type="text"></div>
+                <div class = "Password"><input type = "password"></div>
+                <div class = "Submit" type="submit"><a href = "C:\Users\pc\Desktop\MySite\MainPage\index.html">Submit</a></div>
+            </div>
+
+        </form>
+    </div>
+
+    <div class= "pic">
+
+    </div>
+
+    <div class = "Back">
+        <a href="C:\Users\pc\Desktop\MySite\login.html">Back</a>
+    </div>
+
+    <script>
+    
+    </script>
+</body>
+</html>

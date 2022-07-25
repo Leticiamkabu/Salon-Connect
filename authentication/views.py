@@ -115,3 +115,9 @@ def service_provider_registration_view(request):
     }
     
     return render(request, "register/service_provider_register.html",context)
+
+
+
+def login_register_view(request):
+
+    return render(request, "login_registration/login.html")

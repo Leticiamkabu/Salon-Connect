@@ -1,18 +1,18 @@
 
-html{
+/* html{
 box-sizing: border-box;
 margin: 0;
 
 
     
-}
-body{
+} */
+/* body{ */
  /* background-image: url("{% static 'media\3.png' %}"); */
- position: relative;
- background-repeat: no-repeat;
+ /* position: relative; */
+ /* background-repeat: no-repeat;
  background-size: cover;
  overflow: hidden; 
-}
+} */
 
 /* .nav{
 height: 60px;
@@ -26,9 +26,9 @@ top: 30px;
 
 
 
-header{
+/* header{ */
     /* background-color: rgb(58, 58, 139); */
-    position: fixed;
+    /* position: fixed;
     width: 105%;
     height: 80px;
     left: -40px;
@@ -36,8 +36,8 @@ header{
     top: 30px;
 
     
-}
-
+} */
+/* 
 header::after{
     content: "";
     display: table;
@@ -90,7 +90,7 @@ header::after{
     text-decoration-line: none;
     
 
-}
+} */
 
 /* .nav a{
     color: rgb(234, 234, 240);

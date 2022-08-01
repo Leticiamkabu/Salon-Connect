@@ -15,5 +15,6 @@ urlpatterns = [
     path('service_provider_registration/',service_provider_registration_view, name = "service_provider_registration"),
     
     path('log_reg/',login_register_view, name = "login_register"),
+    path('reg/',register_view, name = "register"),
     
 ]
